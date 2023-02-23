@@ -1,27 +1,61 @@
-# Password
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Kurulu Olması Gerekenler
+Projeyi kendi localinizde çalıştırmak için gerekli olan kurulumları tamamlamalısınız.
 
-## Development server
+- Node.js
+- Angular cli 13.1.1 versiyonu
+- VS Code 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Password Generator with AngularJS
+Bu proje, AngularJS kullanılarak hem angularjs syntax'i hakkında fikir sahibi olmak hemde bir angular projesinde kullanılabilecek bir kaç özelliğin projeye nasıl dahil edilebileceği hakkında bilgi sahibi olmak amacı ile hazırlandı.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Proje
+Proje genel hatları ile kullanıcı tarafından input alanına girilen sayı uzunluğunda şifre oluşturmaktadır.
 
-## Build
+Proje kapsamında oluşturulacak olan şifrenin hangi karakterleri kullanması isteniliyor ise bu durumu check boxlar ile ayarlayı şifre oluştur butonuna basılması ve şifrenin gösterilmesi şeklindedir.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Şifre oluştururken aşağıdaki karakterler kullanılabilir;
 
-## Running unit tests
+-   Alfabe
+-   Sayılar
+-   Semboller
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Proje Kapsamında Kullanılan  CSS Framework'ü  *BULMA*
 
-## Running end-to-end tests
+Aşağıdaki kod parçasını terminale yazarak bulmayı download etmeniz gerekmektedir.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install bulma
+```
 
-## Further help
+indirilme işleminin kontrolünü "node_modules" klasörünün altında "bulma" klasörünü arayarak gerçekleştirebilirsiniz.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+indirilmeişlemi sonrasında projeye dahil edilmesi için
+ `src/styles.css` dosyasının içerisine aşağıdaki kod parçasını yazarak projenize dahil edebilirsiniz.
+
+```bash
+@import 'bulma/css/bulma.css';
+```
+
+
+
+
+
+## Bilgisayarınızda Çalıştırın
+
+İndirme işlemleri ve gerkli kurulumlardan sonrasında klasörü açtıktan sonrasında terminale 
+aşağıdaki kodu yazarak projenin local host üzerinde açılması sağlanmaktadır.
+Proje çalışması için aşağıdaki kod parçası yeterli olacaktır ;
+
+```bash
+ng serve
+```
+
+## Ekran Çıktısı
+
+
+https://user-images.githubusercontent.com/66949465/220929314-58d332cb-ad07-4413-aee8-1c54dc8067f7.mp4
+
+
+
