@@ -31,7 +31,7 @@ npm install bulma
 
 indirilme işleminin kontrolünü "node_modules" klasörünün altında "bulma" klasörünü arayarak gerçekleştirebilirsiniz.
 
-indirilmeişlemi sonrasında projeye dahil edilmesi için
+indirilme işlemi sonrasında projeye dahil edilmesi için
  `src/styles.css` dosyasının içerisine aşağıdaki kod parçasını yazarak projenize dahil edebilirsiniz.
 
 ```bash
